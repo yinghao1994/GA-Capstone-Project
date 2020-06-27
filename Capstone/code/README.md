@@ -2,17 +2,16 @@
 #### Don Chng, General Assembly SG-DSI-14
 #### 28th June, 2020
 
+## Executive Summary
+Fantasy Premier League (FPL) is a fantasy sport management game; the aim being to score as many fantasy points as possible at the end of the football season. The results will be tabulated and the top scoring players will stand to win several attractive prizes.
+
+A season consists of 38 gameweeks. At the beginning, fantasy players are given a virtual currency budget of $100 million. During each gameweek, players will have to pick a total of 15 footballers from the pool that is available in the Premier League. The draft consists of 2 Goalkeepers, 5 Defenders, 5 Midfielders and 3 Forwards. At any given gameweek, only 11 are allowed to be fielded (1 GK, 3-5 Defenders, 3-5 Midfielders, 1-3 Forwards) and 4 benched.
+
+After the matches are played for each week, points are awarded based on how the statistics they have racked up in the match. Points can be awarded for minutes played, goals, assists, influence on the pitch etc. The default strategy of FPL is to pick good footballer that have the potential to rack up as many points as possible. However, it is also important that the fantasy players choose their footballers wisely as they have a limited budget.
+
 ## Problem Statement
 
 The aim of this project would be to find out if it is possible to predict players who would perform well in the Fantasy Premier League from a machine-learning algorithm. We would want to build a machine-learning model to predict the a player's total points for the season based on the footballers stats with the lowest possible error. 
-
-## Executive Summary
-
-Both the train and test dataset had to be cleaned for numerous null values. Ordinal datatypes had to be switched into numbers and nominal datatypes encoded into dummy variables. 
-
-Exploratory Data Analysis was first done to identify the relationships between the 80 variables. It was important to use a heatmap and correlation plots to identify correlations between the variables. 
-
-An initial model was first created using linear regression, using variables that had high correlations to sale prices. In order to make sure that there was no stone left unturned, regularization models such as Ridge, Lasso and ElasticNet were used to comb through all the variables and minimize or eliminate those that are irrelevant. The aim was to identify which variables are most price sensitive, as well as to create a model that minimizes error.
 
 ## Conclusion
 
